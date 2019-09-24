@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input type="email" placeholder="Enter Email" required [(ngModel)]="email"></ion-input>
+  <ion-input type="passsword" placeholder="Enter Password" required [(ngModel)]="pswd"></ion-input>
+  <ion-button (click)="login()" expand="block">Login</ion-button> 
+  <!-- <ion-button expand="block" color="secondary" href="../user-dashboard/user-dashboard.page.html" routerDirect="forward">Register</ion-button> -->
+</ion-content>
